@@ -3,7 +3,7 @@
 <h2> 📄 Descrição do Encriptador/Decodificador de Mensagem Secreta: </h2>
 <p> Esse projeto foi criado por meio de um exercício de lógica oferecido pelo curso de programação da Oracle Next Education (ONE) em parceria com a Alura. </p>
 <p> A ideia principal deste exercício é criar um Encriptador/Decodificador de mensagem usando um tipo de código de criptografia específico criado pela ONE e pela equipe da Alura. </p>
-<p> Esse projeto foi baseado principalmente da versão criada no Figma, mas com diversos ajustes feitos ao longo de sua criação. </p>
+<p> Esse projeto foi baseado principalmente na sua versão criada no <a href = "https://www.figma.com/design/3ZnRxtispxvZ1S8GpaLEsW/Challenge-ONE?node-id=0-1&t=hve3hPVLXI1LRlQM-0"> Figma </a>, mas com diversos ajustes feitos ao longo de sua criação. </p>
 
 <h2> 🛠️ Funcionalidades do Projeto </h2>
 
@@ -53,5 +53,14 @@ gato → <i> gaitober </i>
 <p> Caso deseje fazer uma contribuição, você é mais do que bem-vindo(a) para fazê-la. Sinta-se à vontade para fazer um fork deste projeto e enviar pull requests. </p>
 <p> Em caso de problemas: apenas abra uma issue no GitHub. </p>
 
-<h2> Autoria do projeto: </h2>
+<h2> 👩🏼 Autoria do projeto: </h2>
 
+Desenvolvido por Larissa S. Castro 🦕
+
+<h3> Contatos: </h3>
+
+<div>
+<a href="https://instagram.com/brazillian.rapunzel" target="_blank"><img loading="lazy" src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
+<a href = "mailto:contato@larisousacastro@gmail.com"><img loading="lazy" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
+<a href="https://www.linkedin.com/in/larissa-de-sousa-castro-a91880204/" target="_blank"><img loading="lazy" src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>   
+</div>
