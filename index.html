@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title> Challenge ONE </title>
+</head>
+
+<body>
+    <main class="apresentacao">
+        <h1 class="apresentacao__titulo"> Decodificador de Mensagem Secreta </h1>
+
+        <section class="retangulo__branco">
+            <div class="cammpo__texto" id="retangulo__branco"></div>
+            <div class="campo__botao">
+            <button class="apresentacao__botao__copiar" id="copiarBotao"> Copiar Mensagem </button>
+            </div>
+        </section> 
+
+        <section class="retangulo__azul">
+            <textarea type="text" placeholder="Digite aqui sua mensagem secreta"></textarea>
+            <div class="retangulo__azul__alerta">
+                <img class="retangulo__azul__foto" src="/images/sinal-de-alerta.png" width="16px" height="16px">
+                <p class="retangulo__azul__paragrafo"> Somente letras minúsculas e sem acento </p>
+            </div>
+        </section>
+
+        <section class="apresentacao__botao">
+            <button onclick="criptografiaTexto()" class="apresentacao__botao__button"> Criptografar </button>
+            <button onclick="descriptografiaTexto()" class="apresentacao__botao__button"> Descriptografar </button>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <a class="rodape__link" href="https://github.com/Warayilchan">
+            <p> Desenvolvido por Warayilchan </p>
+        </a>
+    </footer>
+
+    <script src="script.js" defer></script>
+</body>
+
+</html>

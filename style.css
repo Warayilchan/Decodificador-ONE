@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Inika:wght@400;700&family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Inspiration&display=swap');
+
+:root {
+    --cor-um: #0F1035;
+    --cor-dois: #7FC7D9;
+    --cor-tres: #365486;
+    --cor-quatro: #DCF2F1;
+    --cor-cinco: #FFFFFF;
+    --cor-seis: #556D96;
+
+    --fonte-titulo: "Inspiration", sans-serif;
+    --fonte-texto_normal: "Inika", sans-serif;
+    --fonte-texto_botao: "inknut Antiqua", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background-color: var(--cor-dois);
+    color: var(--cor-cinco);
+}
+
+footer {
+    margin-top: auto;
+}
+
+.apresentacao__titulo {
+    padding: 2% 0 0 4%;
+    font-family: var(--fonte-titulo);
+    font-weight: 400;
+    font-size: 4rem;
+    color: var(--cor-um);
+}
+
+.retangulo__branco {
+    position: absolute;
+    top: 52%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    overflow: hidden;
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 690px;
+    font-family: var(--fonte-texto_normal);
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: var(--cor-um);
+    background-color: var(--cor-quatro);
+    padding: 2%;
+    border-radius: 15px;
+}
+
+.campo__texto {
+    height: 100%;
+    width: 100%;
+}
+
+.campo__botao {
+    height: 80px;
+    width: 100%;
+    text-align: center;
+}
+
+.apresentacao__botao__copiar {
+    width: 400px;
+    height: 70px;
+    border-radius: 15px;
+    font-size: 1.5rem;
+    font-family: var(--fonte-texto_botao);
+    font-weight: 400;
+    background-color: var(--cor-tres);
+    color: var(--cor-cinco);
+    border: none;
+}
+
+.apresentacao__botao__copiado {
+    width: 400px;
+    height: 70px;
+    border-radius: 15px;
+    font-size: 1.5rem;
+    font-family: var(--fonte-texto_botao);
+    font-weight: 400;
+    background-color: transparent;
+    color: var(--cor-tres);
+    border: 2px solid var(--cor-tres);
+}
+
+.apresentacao__botao__copiar:hover {
+    background-color: var(--cor-seis);
+}
+
+.retangulo__azul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 2%;
+    margin: 3% 0 0 3%;
+    width: 75%;
+    height: 550px;
+    border-radius: 10px;
+    background-color: var(--cor-tres);
+}
+
+textarea {
+    border: none;
+    outline: 0;
+    overflow-y: hidden;
+    resize: none;
+    width: 76%;
+    padding-bottom: 25%;
+    background-color: transparent;
+    margin: 2%;
+    color: var(--cor-cinco);
+    font-family: var(--fonte-texto_normal);
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+textarea::placeholder {
+    color: var(--cor-cinco);
+    width: 100%;
+}
+
+.retangulo__azul__alerta {
+    display: flex;
+    text-align: center;
+    gap: 5px;
+    margin: 2%;
+}
+
+.retangulo__azul__paragrafo {
+    color: var(--cor-cinco);
+    font-family: var(--fonte-texto_normal);
+    font-weight: 400;
+    font-size: 0.81rem;
+}
+
+.apresentacao__botao {
+    display: flex;
+    justify-content: flex-start;
+    margin: 2% 2% 2% 10%;
+    gap: 10%;
+}
+
+.apresentacao__botao__button {
+    width: 400px;
+    height: 70px;
+    border-radius: 15px;
+    font-size: 1.5rem;
+    font-family: var(--fonte-texto_botao);
+    font-weight: 400;
+    background-color: var(--cor-tres);
+    color: var(--cor-cinco);
+    border: none;
+}
+
+.apresentacao__botao__button:hover {
+    background-color: var(--cor-seis);
+}
+
+.rodape {
+    padding: 24px;
+    background-color: var(--cor-um);
+    text-align: center;
+    font-family: var(--fonte-texto_normal);
+    font-weight: 400;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.rodape__link {
+    text-decoration: none;
+    color: var(--cor-cinco);
+}
