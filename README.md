@@ -24,6 +24,8 @@ gato → <i> gaitober </i>
 
 <h2> 🚀 Como Usar: </h2>
 
+<p> Você pode visualizar o projeto aqui: <a href = "https://decodificador-one-theta.vercel.app/"> Decodificador </a> </p>
+
 1. <b> Digitar o Texto: </b> Insira o texto onde diz "Digite aqui sua mensagem secreta".
 2. <b> Escolher a Ação: </b> Clique em "Criptografar" ou "Descriptografar" para receber o resultado desejado.
 3. <b> Ver o Resultado: </b> O texto resultante aparecerá no canto direito (área de saída).
